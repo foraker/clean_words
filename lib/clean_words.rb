@@ -6,12 +6,9 @@ module CleanWords
       new(size, count).fetch
     end
 
-    def initialize(size=nil, count=1)
+    def fetch(size=nil, count=1)
       @size = size
       @count = count
-    end
-
-    def fetch
       @count > 1 ? @count.times.map { get_word } : get_word
     end
 

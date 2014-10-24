@@ -20,26 +20,26 @@ module CleanWords
       end
 
       it 'returns the specified number of words' do
-        words = CleanWords::Random.new(nil, 3).fetch
+        words = CleanWords::Random.new.fetch(nil, 3)
 
         expect(words.size).to eq 3
       end
 
       it 'returns a word of the specified size' do
-        word = CleanWords::Random.new(5).fetch
+        word = CleanWords::Random.new.fetch(5)
 
         expect(word.size).to eq 5
       end
 
       it 'returns words that match an array of size options' do
-        words = CleanWords::Random.new([5,7], 100).fetch
+        words = CleanWords::Random.new.fetch([5,7], 100)
         sizes = words.map(&:size).uniq
 
         expect(sizes).to match_array [5,7]
       end
 
       it 'returns words that match a range of sizes' do
-        words = CleanWords::Random.new((4..6), 100).fetch
+        words = CleanWords::Random.new.fetch((4..6), 100)
         sizes = words.map(&:size).uniq
 
         expect(sizes).to match_array [4,5,6]
