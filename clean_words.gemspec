@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jcs@foraker.com"]
   spec.summary       = %q{A clean (i.e. "kid friendly") random word generator.}
   spec.description   = %q{A random word generator featuring only words that would not be considered inappropriate for children of all ages.}
-  spec.homepage      = ""
+  spec.homepage      = "http://foraker.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec"
 end
