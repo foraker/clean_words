@@ -19,7 +19,6 @@ anteater
 antelope
 apartment
 apple
-apples
 applesauce
 aqueduct
 arachnid
@@ -32,7 +31,7 @@ arugala
 asparagus
 aspen
 assembly
-avacado
+avocado
 baboon
 bacon
 badger
@@ -208,7 +207,6 @@ fort
 fortress
 foundry
 fowl
-fox
 frilled
 frog
 fruit
