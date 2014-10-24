@@ -4,8 +4,7 @@ class WordListSanitizer
   end
 
   def run!
-    process_words
-    write_file
+    update_word_file
   end
 
   private
@@ -13,11 +12,11 @@ class WordListSanitizer
     File.dirname(__FILE__) + '/../data/words.txt'
   end
 
-  def process_words
-    @processed = @words.reject { |w| w.match(/^\w+$/).nil? }.map(&:downcase).sort.uniq
+  def processed_words
+    @words.reject { |w| w.match(/^\w+$/).nil? }.map(&:downcase).sort.uniq
   end
 
-  def write_file
-    File.open(file_path, 'w') { |f| @processed.each { |w| f.puts(w) } }
+  def update_word_file
+    File.open(file_path, 'w') { |f| processed_words.each { |w| f.puts(w) } }
   end
 end
