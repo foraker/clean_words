@@ -72,7 +72,6 @@ bread
 bridge
 brittle
 broccoli
-brown
 brownstone
 buffalo
 building
@@ -439,7 +438,6 @@ restaurant
 retriever
 reuben
 river
-roach
 roadrunner
 robin
 rodent
