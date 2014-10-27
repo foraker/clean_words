@@ -27,7 +27,7 @@ arctic
 arena
 armadillo
 artichoke
-arugala
+arugula
 asparagus
 aspen
 assembly
@@ -36,7 +36,6 @@ baboon
 bacon
 badger
 bagel
-bandicoot
 barley
 barn
 barnacle
@@ -63,9 +62,7 @@ bluefin
 boathouse
 bobcat
 bongo
-bonobo
 border
-bowhead
 bowling
 boxer
 bread
@@ -80,7 +77,6 @@ bullfrog
 bumblebee
 bungalow
 bunkhouse
-buritto
 butterfly
 cabana
 cabbage
@@ -109,9 +105,7 @@ chameleon
 chapel
 cheese
 cheetah
-chickadee
 chicken
-chihuahua
 chinchilla
 chipmunk
 chips
@@ -120,7 +114,6 @@ chowder
 church
 cicada
 cinema
-clownfish
 clubhouse
 cobra
 coffee
@@ -169,7 +162,6 @@ dragon
 dragonfly
 dromedary
 duck
-dugong
 dumpling
 duplex
 dwelling
@@ -227,11 +219,9 @@ goldfinch
 goldfish
 goose
 gopher
-gorilla
 granary
 granola
 grape
-grapes
 grasshopper
 great
 green
@@ -364,11 +354,9 @@ monarch
 monastery
 mongoose
 monitor
-monkey
 monument
 moose
 moray
-mosque
 mosquito
 motel
 moth
@@ -427,7 +415,6 @@ quail
 queen
 quiche
 rabbit
-raccoon
 racer
 railway
 ranch
