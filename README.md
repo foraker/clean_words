@@ -55,3 +55,11 @@ words.fetch((4..6), 4)
   - NOTE: If adding words to `data/words.txt`, please execute `ruby util/sanitize_list.rb` from the project root before commiting.
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## About Foraker Labs
+
+<img src="http://assets.foraker.com/foraker_logo.png" width="400" height="62">
+
+This project is maintained by Foraker Labs. The names and logos of Foraker Labs are fully owned and copyright Foraker Design, LLC.
+
+Foraker Labs is a Boulder-based Ruby on Rails and iOS development shop. Please reach out if we can [help build your product](http://www.foraker.com).
